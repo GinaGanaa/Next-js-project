@@ -1,0 +1,13 @@
+.title {
+  color: white;
+}
+.subHeader {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.subHeader div {
+  background-color: #fff;
+  width: 240px;
+  height: 2px;
+} 
