@@ -11,11 +11,11 @@ const todosData = [
   },
   {
     id: 2,
-    name: "second Task",
+    name: "Second Task",
   },
   {
     id: 3,
-    name: "third Task",
+    name: "Third Task",
   },
 ];
 
