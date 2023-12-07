@@ -1,7 +1,7 @@
 export const AddTodo = () => {
   return (
     <>
-      <input type="text" />
+      <input className="add" type="text" />
     </>
   );
 };

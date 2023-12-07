@@ -14,12 +14,12 @@ export const Header = () => {
   return (
     <div>
       <div className={`${Racing.className} ${style.title}`}>- TO-DO NOW -</div>
-      <div className={style.subHeader}>
+      <div className={`${style.subHeader}`}>
         <div></div>
         <SubHeader />
         <div></div>
       </div>
-      <div className={style.addTodo}></div>
+      <div className={style.add}></div>
     </div>
   );
 };

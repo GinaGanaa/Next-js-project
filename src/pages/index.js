@@ -7,15 +7,36 @@ import style from "./index.module.css";
 const todosData = [
   {
     id: 1,
-    name: "First Task",
+    name: (
+      <input
+        className="tasks"
+        id="first_task"
+        type="text"
+        placeholder="First task"
+      />
+    ),
   },
   {
     id: 2,
-    name: "Second Task",
+    name: (
+      <input
+        className="tasks"
+        id="second_task"
+        type="text"
+        placeholder="Second task"
+      />
+    ),
   },
   {
     id: 3,
-    name: "Third Task",
+    name: (
+      <input
+        className="tasks"
+        id="third_task"
+        type="text"
+        placeholder="Third task"
+      />
+    ),
   },
 ];
 
@@ -31,6 +52,10 @@ export default function Home() {
         <div className={`${style.container}`}>
           <Header />
           <AddTodo />
+          <button>Add task</button>
+        </div>
+        <div className={style.line}></div>
+        <div>
           {todosData.map((todo, index) => (
             <Todo data={todo} key={index} />
           ))}

@@ -14,6 +14,14 @@
   width: 240px;
   height: 2px;
 }
-.addTodo {
+.add {
   width: 100px;
+}
+.line {
+  background-color: #f4ebeb;
+  width: 240px;
+  height: 2px;
+}
+.tasks {
+  width: 80px;
 }
