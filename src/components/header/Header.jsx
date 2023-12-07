@@ -1,6 +1,7 @@
 import { Racing_Sans_One } from "next/font/google";
 import style from "./Header.module.css";
 import { SubHeader } from "../icons/SubHeader";
+import { AddTodo } from "../todos/AddTodo";
 
 const Racing = Racing_Sans_One({
   weight: ["400"],
@@ -18,6 +19,7 @@ export const Header = () => {
         <SubHeader />
         <div></div>
       </div>
+      <div className={style.addTodo}></div>
     </div>
   );
 };
