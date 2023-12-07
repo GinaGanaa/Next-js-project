@@ -12,7 +12,7 @@ const Racing = Racing_Sans_One({
 export const Header = () => {
   return (
     <div>
-      <div className={`${Racing.className} ${style.title}`}>TO-DO NOW</div>
+      <div className={`${Racing.className} ${style.title}`}>- TO-DO NOW -</div>
       <div className={style.subHeader}>
         <div></div>
         <SubHeader />

@@ -35,6 +35,7 @@ export default function Home() {
             <Todo data={todo} key={index} />
           ))}
         </div>
+        <div></div>
       </main>
     </>
   );
