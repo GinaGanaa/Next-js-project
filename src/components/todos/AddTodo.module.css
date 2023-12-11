@@ -1,0 +1,20 @@
+.addInput {
+  display: flex;
+  justify-content: center;
+}
+.addInput input {
+  width: 65%;
+  height: 30px;
+  border-radius: 10px;
+}
+.addInput button {
+  background-color: #4f4f4f;
+  border-radius: 10px;
+  color: #fff;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 15px;
+  height: 30px;
+  border: none;
+  padding: 5px;
+}

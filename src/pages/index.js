@@ -7,36 +7,15 @@ import style from "./index.module.css";
 const todosData = [
   {
     id: 1,
-    name: (
-      <input
-        className="tasks"
-        id="first_task"
-        type="text"
-        placeholder="First task"
-      />
-    ),
+    task: "First Task",
   },
   {
     id: 2,
-    name: (
-      <input
-        className="tasks"
-        id="second_task"
-        type="text"
-        placeholder="Second task"
-      />
-    ),
+    task: "Second Task",
   },
   {
     id: 3,
-    name: (
-      <input
-        className="tasks"
-        id="third_task"
-        type="text"
-        placeholder="Third task"
-      />
-    ),
+    task: "Third Task",
   },
 ];
 
@@ -52,7 +31,6 @@ export default function Home() {
         <div className={`${style.container}`}>
           <Header />
           <AddTodo />
-          <button>Add task</button>
         </div>
         <div className={style.line}></div>
         <div>
@@ -65,3 +43,8 @@ export default function Home() {
     </>
   );
 }
+
+let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+arr.map((num, index) => {
+  console.log(index, "-", num);
+});

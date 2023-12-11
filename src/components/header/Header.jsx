@@ -19,7 +19,6 @@ export const Header = () => {
         <SubHeader />
         <div></div>
       </div>
-      <div className={style.add}></div>
     </div>
   );
 };
