@@ -16,6 +16,7 @@ export const AddTodo = () => {
           <button>Add task</button>
         </div>
       </div>
+      <div className={styles.bottomLine}></div>
     </>
   );
 };

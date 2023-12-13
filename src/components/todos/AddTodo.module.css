@@ -1,20 +1,33 @@
 .addInput {
   display: flex;
   justify-content: center;
+  margin-top: 80px;
 }
 .addInput input {
-  width: 65%;
-  height: 30px;
-  border-radius: 10px;
+  width: 75%;
+  height: 40px;
+  border-radius: 25px;
 }
 .addInput button {
   background-color: #494747;
-  border-radius: 10px;
+  border-radius: 25px;
   color: #fff;
   font-style: italic;
   font-weight: 700;
   font-size: 15px;
-  height: 30px;
+  height: 40px;
+  width: 140px;
   border: none;
   padding: 5px;
+  cursor: pointer;
+}
+.addInput button:hover {
+  opacity: 0.5;
+}
+.bottomLine {
+  background-color: #f4ebeb;
+  width: 700px;
+  height: 2px;
+  margin-top: 35px;
+  margin-bottom: 86px;
 }

@@ -16,4 +16,10 @@
 .deleteBtn {
   background-color: #222;
   border: none;
+  margin-left: 455px;
+  float: right;
+  cursor: pointer;
+}
+.deleteBtn:hover {
+  opacity: 0.5;
 }
