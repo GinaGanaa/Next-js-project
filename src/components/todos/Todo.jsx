@@ -6,7 +6,7 @@ export const Todo = (props) => {
     <div className={styles.inputTask}>
       <div className={styles.task}>
         {data.task}
-        <button>
+        <button className={styles.deleteBtn}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="38"

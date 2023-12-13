@@ -2,4 +2,18 @@
   background-color: #222;
   color: #fff;
   margin: 10px;
+  border-radius: 10px;
+  width: 68%;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.inputTask {
+  display: flex;
+  justify-content: center;
+}
+.deleteBtn {
+  background-color: #222;
+  border: none;
 }

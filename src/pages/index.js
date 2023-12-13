@@ -32,7 +32,7 @@ export default function Home() {
           <Header />
           <AddTodo />
         </div>
-        <div className={style.line}></div>
+        <div></div>
         <div>
           {todosData.map((todo, index) => (
             <Todo data={todo} key={index} />
