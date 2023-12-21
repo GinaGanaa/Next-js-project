@@ -7,7 +7,9 @@
   width: 75%;
   height: 40px;
   border-radius: 25px;
+  padding-left: 20px;
 }
+
 .addInput button {
   background-color: #494747;
   border-radius: 25px;
