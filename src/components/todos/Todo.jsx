@@ -14,4 +14,3 @@ export const Todo = (props) => {
     </div>
   );
 };
-//ene delete text iin orond delete icon svg oruulj irne / SubHeader.jsx tei tostei baidalaar
