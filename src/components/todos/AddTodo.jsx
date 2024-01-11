@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./AddTodo.module.css";
 import { Racing_Sans_One } from "next/font/google";
+
 const Racing = Racing_Sans_One({
   weight: ["400"],
   style: ["normal"],
