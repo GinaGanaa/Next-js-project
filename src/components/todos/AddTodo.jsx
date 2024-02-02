@@ -6,7 +6,7 @@ const Racing = Racing_Sans_One({
   weight: ["400"],
   style: ["normal"],
   subsets: ["latin"],
-  display: "swap",
+  disply: "swap",
 });
 
 export const AddTodo = () => {
