@@ -7,7 +7,7 @@
 .subHeader {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 31px;
   margin-left: 45px;
 }
 .subHeader div {
